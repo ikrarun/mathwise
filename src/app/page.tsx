@@ -24,8 +24,10 @@ const Home = () => {
         className="w-full text-start items-start justify-start"
         style={font.style}
       >
-        <h1 className="text-red-500 transition-all animate-bounce">
-          Warning:simple straight forward website without any fancy terms.
+        <h1 className="text-red-400 text-2xl z-[1000] transition-all">
+          Warning:
+          <br />
+          simple straight forward website without any fancy terms.
         </h1>
       </section>
       <section

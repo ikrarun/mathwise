@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <div
       style={raleway.style}
-      className=" w-full py-3 px-6 font-semibold text-white max-w-[900px] inline-flex justify-between items-center"
+      className=" w-full py-3 z-[2000] px-6 font-semibold text-white max-w-[900px] inline-flex justify-between items-center"
     >
       <div>
         <Link href="/">
@@ -18,7 +18,8 @@ const NavBar = () => {
       <ul>
         <Link
           className="bg-white text-black h-full flex px-4 hover:scale-110 transition-all ease-in-out duration-150 py-2 text-base rounded-full"
-          href={""}
+          href={"https://forms.office.com/r/S1ZQwVmNnP"}
+          target="_blank"
         >
           Book a free trial
         </Link>
