@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#quote {
+  background: linear-gradient(
+      to left,
+      rgba(15, 71, 226, 0.247),
+      rgba(226, 94, 5, 0.8)
+    ),
+    url("/sdbg.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
