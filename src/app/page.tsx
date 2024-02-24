@@ -13,7 +13,7 @@ const Home = () => {
         className="flex-1 tracking-wide inline-flex min-h-[50%] items-center justify-between py-5"
       >
         <div className="flex flex-col w-1/2 items-start justify-start">
-          <Image src={logo} alt="" height="30" width="30" />
+          <Image src={logo} alt="" height="300" width="300" />
 
           <h1 className="text-8xl text-[#e25e05] tracking-wider font-bold">
             the
