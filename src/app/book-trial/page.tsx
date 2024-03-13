@@ -18,7 +18,7 @@ const Page = () => {
 
                 }}
             />
-            <h1 style={font.style} className='z-10 absolute self-center animate-pulse duration-200 top-24 text-6xl ease-in-out' role="status" id='loader'>
+            <h1 style={font.style} className='z-10 px-10 absolute self-center animate-pulse duration-200 top-24 text-xl lg:text-6xl ease-in-out' role="status" id='loader'>
                 Please Wait ....
             </h1>
         </main>
