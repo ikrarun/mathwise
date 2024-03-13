@@ -14,8 +14,9 @@ const NavBar = () => {
       className=" w-full py-3 z-[2000] px-6 font-semibold text-white max-w-[900px] inline-flex justify-between items-center"
     >
       <div>
-        <Link href="/">
+        <Link className="inline-flex gap-2" href="/">
           <Image src={home} alt="" height="30" width="30" />
+          NumeraNex
         </Link>
       </div>
       <ul>
