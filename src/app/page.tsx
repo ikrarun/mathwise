@@ -8,30 +8,33 @@ import Link from "next/link";
 const Home = () => {
   return (
     <main className=" w-full min-h-full flex-grow flex-col flex px-6 py-3 items-center justify-start gap-6 max-w-[900px] ">
-      <section
-        // Hero Section
-        style={font.style}
-        className="flex-col py-6 min-h-[50%] text-start items-start justify-start min-w-full  self-center"
-      >
-        <h1 className="text-7xl  lg:text-8xl text-[#3049d3]  font-bold">
-          the
-          <br />
-          MathWise
-        </h1>
-        <h1>if you want to be excellent at mathematics join us, right now.</h1>
-      </section>
 
+      {/* //TODO: Hero Section */}
       <section
-        // informative section
-        className="gap-3 flex flex-col my-6"
+
         style={font.style}
+        className="gap-3 flex flex-col w-full "
       >
-        <h1 className="text-start font-extrabold text-xl lg:text-4xl">
+        <div className="text-7xl break-before-avoid px-3 lg:text-8xl text-[#3049d3] flex flex-col sm:flex-row font-bold">
+          <h1>
+            Numera
+          </h1>
+          <h1>
+            Nex
+          </h1>
+        </div>
+        <h1 className="mt-3 break-before-auto px-3">If you want to be excellent at mathematics join us, right now.</h1>
+        <h1 className="mt-3 break-before-auto px-3">
           Best Tutoring to unlock your full potential
         </h1>
-        
-        {/* Pricing Section */}
-        <div className="w-full flex items-start justify-ceter my-6 flex-col">
+      </section>
+
+      {/* //TODO:informative section*/}
+      <section
+        className="gap-3 flex flex-col w-full "
+        style={font.style}
+      >
+        <div className="w-full flex items-start justify-ceter  flex-col">
           <h1 className="text-4xl underline-offset-2 px-3 text-[#3049d3] underline">
             Pricing
           </h1>
@@ -50,8 +53,8 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Social Section 
- */}
+      {/* //TODO:Social Section */}
+
       <section
         // Social Section
         className="w-full flex flex-col gap-4"
