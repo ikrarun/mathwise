@@ -18,8 +18,7 @@ const NavBar = () => {
       <ul>
         <Link
           className="bg-white text-black h-full flex px-4 hover:scale-110 transition-all ease-in-out duration-150 py-2 text-base rounded-full"
-          href={"https://forms.office.com/r/S1ZQwVmNnP"}
-          target="_blank"
+          href={"./book-trial"}
         >
           Book a free trial
         </Link>
