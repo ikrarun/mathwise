@@ -42,7 +42,7 @@ const Home = () => {
               <h1 className="text-base">Most Affordable Option</h1>
             </div>
             <div className="flex  bg-[#3049d3] flex-col px-4 py-6 items-start w-full justify-start">
-              <h1 className="text-2xl">1000 / Hour </h1>
+              <h1 className="text-2xl">3000 / Month </h1>
               <h1 className="text-base">One-to-One session.</h1>
             </div>
 

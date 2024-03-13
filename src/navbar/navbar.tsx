@@ -2,12 +2,12 @@ import Image from "next/image";
 import React from "react";
 import home from "./../assets/logo.svg";
 import Link from "next/link";
-import { raleway } from "@/fontList";
+import { delaGothic as font } from "@/fontList";
 
 const NavBar = () => {
   return (
     <div
-      style={raleway.style}
+      style={font.style}
       className=" w-full py-3 z-[2000] px-6 font-semibold text-white max-w-[900px] inline-flex justify-between items-center"
     >
       <div>
@@ -20,7 +20,7 @@ const NavBar = () => {
           className="bg-white text-black h-full flex px-4 hover:scale-110 transition-all ease-in-out duration-150 py-2 text-base rounded-full"
           href={"./book-trial"}
         >
-          Book a free trial
+          Free trial
         </Link>
       </ul>
     </div>
