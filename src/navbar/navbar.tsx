@@ -1,10 +1,13 @@
+'use client'
 import Image from "next/image";
 import React from "react";
 import home from "./../assets/logo.svg";
 import Link from "next/link";
 import { delaGothic as font } from "@/fontList";
+import { usePathname } from "next/navigation";
 
 const NavBar = () => {
+  const path = usePathname();
   return (
     <div
       style={font.style}
@@ -17,7 +20,7 @@ const NavBar = () => {
       </div>
       <ul>
         <Link
-          className="bg-white text-black h-full flex px-4 hover:scale-110 transition-all ease-in-out duration-150 py-2 text-base rounded-full"
+          className={path !== '/thnx' ? "bg-white text-black h-full flex px-4 hover:scale-110 transition-all ease-in-out duration-150 py-2 text-base rounded-full" : 'hidden'}
           // href={"./book-trial"}
           href={"https://tally.so/r/3EXKQl"}
         >
