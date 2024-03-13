@@ -18,7 +18,8 @@ const NavBar = () => {
       <ul>
         <Link
           className="bg-white text-black h-full flex px-4 hover:scale-110 transition-all ease-in-out duration-150 py-2 text-base rounded-full"
-          href={"./book-trial"}
+          // href={"./book-trial"}
+          href={"https://tally.so/r/3EXKQl"}
         >
           Free trial
         </Link>
